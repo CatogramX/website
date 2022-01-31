@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@font-face {
+    font-family: 'Manrope';
+    src: local('Manrope Medium'), local('Manrope-Medium'), url('fonts/Manropemedium.woff2') format('woff2'), url('fonts/Manropemedium.woff') format('woff'), url('fonts/Manropemedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 body {
     margin: 0;
     font-family: 'Manrope', sans-serif;
@@ -102,6 +107,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 @media (max-width: 985px) {
     .main_title {
